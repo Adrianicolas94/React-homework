@@ -1,0 +1,36 @@
+.Main{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: blueviolet;
+}
+.Body {
+  display: grid;
+  place-items: center;
+  width: 50%;
+  background-color: rgb(209, 159, 255);
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+.Info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  
+}
+
+.Info span{
+  font-weight: 400;
+}
+
+.IconsFlex{
+  display: flex;
+  gap: 50px;
+}
+
+.IconsFlex img:hover{
+  transform: scale(1.3);
+}
+
